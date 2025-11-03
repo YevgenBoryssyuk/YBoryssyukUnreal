@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/Unreal Projects/Task6YevhenBoryssyuk/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"E:/Unreal Projects/Task6YevhenBoryssyuk/Content/BP_MovingPlatform.uasset",
+				"E:/Unreal Projects/Task6YevhenBoryssyuk/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/ZS/PV0FOPHVE873AA3BCOBBLM.uasset"
+			]
+		}
+	]
+}
