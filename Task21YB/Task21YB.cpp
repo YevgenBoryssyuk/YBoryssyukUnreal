@@ -26,7 +26,7 @@ public:
         health_ -= dmg;
     }
 
-    // методи касу (гетери)
+    // методи класу (гетери)
     const std::string& GetName() const { return name_; }
     int GetHealth() const { return health_; }
     int GetX() const { return x_; }
@@ -85,7 +85,13 @@ int main()
 
     int radius = 3 * power;
     long long radiusSq = 1LL * radius * radius;
-
+    
+    /* Робиться зміна кординат для персонажів,
+    обираємо персонажів на цифру наприклад 1, 
+    так як це початковий персонаж і далі 
+    в залежності скільки є персонажів.
+    Потім уводимо наші координати потрібні, 
+    так як було до цього через пробіл */
     char choice;
     std::cout << "Do you want to move characters before impact? (y/n): ";
     std::cin >> choice;
